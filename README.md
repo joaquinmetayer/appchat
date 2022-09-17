@@ -1,6 +1,6 @@
 # App Chat
 
-Simple product landing page using HTML, CSS and JS full responsive.
+Simple product landing page using HTML, CSS whid SASS and JS full responsive.
 
 <img src="./img/Screen Shot 2022-09-17 at 00.08.55.png">
 
