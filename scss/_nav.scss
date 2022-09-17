@@ -1,0 +1,84 @@
+.topnav, 
+.topnavresponsive{
+    overflow: hidden;
+    background-color: #121b21;
+}
+.topnav a , 
+.topnavresponsive a{
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    margin: 1.25em;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav-diana-title{
+    font-size: 1.75em;
+}
+.topnav a:hover:not(:last-child){
+    color: #dcf7c6;
+}
+.topnav .icon {
+    display: none;
+}
+.nav-name-black, .nav-name-green{
+    color: #fff;
+}
+.links-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav-name-green{
+    color: #22d365 ;
+}
+.icon-png{
+    filter: invert(1);
+    height: 2em;
+}
+#nav-automatiza{
+    border: 3px solid  #22d365 ;
+    background-color: #22d365;
+    color: #fff;
+    padding: 0.75em;
+    border-radius: 5px;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 850px) {
+    .links-nav a, .dropdown .dropbtn {
+        display: none;
+        flex-direction: column;
+    }
+    .links-nav{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnavresponsive .icon {
+        position: absolute;
+        right: 0;
+        top: 1em;
+    }
+    .topnavresponsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnavresponsive {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}

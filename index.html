@@ -1,0 +1,190 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Dianna.chat</title>
+
+    <meta name="description" content="Automatiza y gestioná con Diana.">
+    
+</head>
+<body>
+
+    <!-- nav -->
+    <div class="topnav display-flex-between" id="myTopnav">
+        <a href="#" class="nav-diana-title">
+            <span class="nav-name-black">Diana</span><span class="dot-name">.</span><span class="nav-name-green">chat</span>
+        </a>
+        <div>
+            <div class="links-nav">
+                <a class="nav-link" href="#quehacemos">Qué hacemos</a>
+                <a class="nav-link" href="#comofunciona">Cómo funciona</a>
+                <a class="nav-link" href="#precio">Precio</a>
+                <a class="nav-link" id="nav-automatiza" href="#automatiza">Automatizá</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img class="icon-png" src="./img/menu.png"></a>
+        </div>
+    </div>
+
+    <!-- hero -->
+    <div class="display-flex-around hero-container">
+        <div class="hero-title-container">
+            <div class="hero-title">
+                <span>Automatiza y gestioná con <span class="hero-dianna">Diana</span> mediante WhatsApp</span>
+            </div>
+            <a class="automatiza" href="#automatiza">Automatizá</a>
+        </div>
+        <div class="hero-img-container display-flex-center">
+                <img class="hero-img" src="./img/portrait_black.png">
+                <video class="video01" autoplay muted loop>
+                    <source src="./video/demo-screen.mp4" type="video/mp4" />
+                </video>
+        </div>
+    </div> 
+
+    <!-- que hacemos -->
+    <div class="que-hacemos-container display-flex-center" id="quehacemos">
+        <div class="que-hacemos-title">
+            <span>Que hacemos</span>
+        </div>
+        <div class="que-hacemos-description">
+            <p>Automatizamos parte de tu trabajo haciendolo simple, la cual podras dar ordenes como cajero de tu plataforma de entretenimiento favorita a Diana para que haga todas tus tareas sin salir de la aplicación de WhatsApp.</p>
+            <p class="veamos-accion">Ahora veamosla en acción, dale al play!</p>
+            <a onclick="playVid()" type="button" ><img class="btn-play" src="./img/play-button.png"></a>
+        </div>
+        <div class="que-hacemos-accion">
+            <div class="qh-card display-flex-center">
+                <p>Cajero <span class="green">solicitando</span></p>
+                <video id="myVideo1" src="./video/Screen Recording 2022-09-13 at 23.53.48.mov" muted></video>
+            </div>
+            <div class="qh-card display-flex-center">
+                <p>Diana <span class="green">ejecutando</span></p>
+                <video id="myVideo2" src="/video/Screen Recording 2022-09-13 at 23.53.48.mov" muted></video>
+            </div>
+        </div>
+    </div>
+
+    <!-- como funciona -->
+    <div class="comofunciona-container display-flex-center" id="comofunciona">
+        <span class="comofunciona-title">Comó funciona</span>
+        <span class="comofunciona-description">Veamos como lo hace en un cuadro!</span>
+        <div class="cuadro-container display-flex-center">
+            <div class="row03">
+                <span class="cajero">Cajero envía comando:</span>
+            </div>
+
+            <!-- bic screen cols -->
+            <div class="row02">
+                <span class="box01">Cargar fichas</span>
+                <span class="box01">Descargar fichas</span>
+                <span class="box01">Crear nuevo jugador</span>
+                <span class="box01">Crear nuevo agente</span>
+            </div>
+            <div class="row02">
+                <span class="box04">C19 + 01 + Jug + Monto</span>
+                <span class="box04">D19 + 01 + Jug + Monto</span>
+                <span class="box04">NJ19 + 01 + NuevoUs + NContr</span>
+                <span class="box04">NA19 + 01 + NuevoAg + NContr</span>
+            </div>
+
+            <!-- small screen cols -->
+            <div class="rowsmall">
+                <span class="box01">Cargar fichas</span>
+                <span class="box04">C19 + 01 + Jug + Monto</span>
+                <span class="box01">Descargar fichas</span>
+                <span class="box04">D19 + 01 + Jug + Monto</span>
+                <span class="box01">Crear nuevo jugador</span>
+                <span class="box04">NJ19 + 01 + NuevoUs + NContr</span>
+                <span class="box01">Crear nuevo agente</span>
+                <span class="box04">NA19 + 01 + NuevoAg + NContr</span>
+            </div>
+
+            <!-- end small screen cols -->
+            <div class="row03">
+                <div class="diana-box">
+                    <p><span class="diana-box-name">Diana</span> recibe y procesa</p>
+                </div>
+            </div>
+            <div class="row03">
+                <div class="plataforma-box">
+                    <p>Ejecuta comando dentro de plataforma de entretenimiento</p>
+                </div>
+            </div>
+            <div class="row03">
+                <span class="notifica">Notifica cajero que el comando se ha completado</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- precio -->
+    <div class="price-container display-flex-center" id="precio">
+        <p class="price-title">Precio</p>
+        <p class="price-description">Unico plan, todo en uno.</p>
+        <div class="price-container-small">
+            <p class="plan-title">Starter plan</p>
+            <div class="price-currency-container">
+                <span class="price-black">$ 3.000 </span><span class="price-gray">/mes</span>
+            </div>
+            <div class="price-points">
+                <p>Cargar fichas</p>
+                <p>Descargar fichas</p>
+                <p>Cargar nuevo usuario</p>
+                <p>Cargar nuego agente</p>
+
+            </div>
+            <a class="comprar" target="_blank" href="https://wa.me/5493518024289?text=Hola Diana! Quiero automatizar.. me brindas mas información del pago?">Comprar</a>
+        </div>
+            
+        
+    </div>
+    </div>
+
+    <!-- contacto -->
+    <div class="contact-container display-flex-center" id="automatiza">
+        <p class="contact-title">Contacta para automatizar</p>
+        <p class="contact-description">A medida de lo que necesitas.</p>
+        <div class="contact-container-form">
+            <a class="enviar-wspp" target="_blank" href="https://wa.me/5493518024289?text=Hola Diana! Quiero automatizar.. me brindas mas información?">Enviar WhatsApp</a>
+            <p>No te quedes afuera, no pierdas tiempo!</p>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer display-flex-between">
+        <div>
+            <span class="footer-name-black">Diana</span><span class="dot-name">.</span><span class="footer-name-green">chat</span>
+        </div>
+        <a href="https://www.instagram.com/chat.diana" target="_blank">
+            <img src="./img/instagram.png">
+        </a>
+    </div>
+
+    <!-- script -->
+    <script>
+
+        // navbar
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className = "topnavresponsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        
+        // video play btn
+        function playVid() { 
+            myVideo1.play(); 
+            myVideo2.play();
+        } 
+
+    </script>
+
+</body>
+</html>

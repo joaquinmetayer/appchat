@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+img{
+    width: 100%;
+}
+.display-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display-flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.display-flex-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dot-name{
+    color: #f57445;
+}
+.enviar-wspp:hover, 
+.automatiza:hover, 
+#nav-automatiza:hover, 
+.comprar:hover{
+    background-color: #1dbc5a;
+}

@@ -1,0 +1,72 @@
+.que-hacemos-container{
+    background-color: #f9f9f9;
+    color: #121b21;
+    padding: 2em 2em 0 2em;
+    flex-direction: column;
+}
+.que-hacemos-title{
+    font-weight: bold;
+    font-size: 2.25em;
+    max-width: 30em;
+}
+.que-hacemos-description{
+    max-width: 40em;
+    padding: 1em;
+    font-size: 1.2em;
+    text-align: center;
+    color: #585858;
+}
+.veamos-accion{
+    padding: 1em 0.5em 0.5em 0.5em;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #121b21; 
+}
+.que-hacemos-accion{
+    max-width: 70em;
+    margin: 0 1em 0 1em;
+    padding: 1em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 8px;
+    background-color: #121b21;
+    color: #f9f9f9;
+    gap: 1em;
+    box-shadow: 10px 10px 150px rgba(0, 0, 0, 0.142);
+}
+.qh-card{
+    flex-direction: column; 
+}
+.qh-card p{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+.qh-card video{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.green{
+    color: #22d365;
+}
+.btn-play{
+    padding: 0.6em;
+    height: 4em;
+    width: auto;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.btn-play:hover{
+    height: 4.2em;
+    padding: 0.5em;
+    transition: 0.1s;
+}
+@media screen and (max-width: 700px) {
+    .que-hacemos-accion{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+

@@ -1,0 +1,76 @@
+.price-container{
+    color: #f9f9f9;
+    padding: 4em 0em 4em 0em;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("../img/24.jpg");
+    background-position: center;
+    background-size: cover;
+    text-shadow: 10px 10px 100px #000;
+}
+.price-container-small{
+    margin: 0 1em 0 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    background-color:  #ede4dc;
+    color: #121b21;
+    gap: 1em;
+    font-size: 1em;
+    width: 25em;
+}
+.price-title{
+    font-weight: bold;
+    font-size: 2.25em;
+}
+.price-description{
+    padding: 1em 1em 1.5em 1em;
+    font-size: 1.25em;
+    text-align: center;
+    color: #f9f9f9;
+}
+.comprar{
+    font-weight: bold;
+    border: 3px solid  #22d365 ;
+    background-color: #22d365;
+    color: #fff;
+    padding: 1em 0.75em 1em 0.75em;
+    border-radius: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1.75em;
+    text-decoration: none;
+}
+.price-currency-container{
+    font-size: 3em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.1em;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.213);
+}
+.price-black{
+    font-weight: bold;
+    color: #121b21;   
+}
+.price-gray, .price-points{
+    color: #121b21ba;
+}
+.price-points{
+    font-size: 1.25em;
+    padding: 0 0 0.5em 0;
+}
+.plan-title{
+    font-size: 2em;
+    font-weight: bold;
+    width: 100%;
+    padding-bottom: 0.5em;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.213);
+}
+@media screen and (max-width: 700px) {
+    .price-container-small{
+        width: 22em;
+    }
+}
