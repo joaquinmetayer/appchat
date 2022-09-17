@@ -203,7 +203,7 @@ img {
   font-weight: bold;
 }
 
-.nav-diana-title {
+.nav-app-title {
   font-size: 1.75em;
 }
 
@@ -372,7 +372,7 @@ img {
   width: 100%;
 }
 
-.diana-box {
+.app-box {
   background-color: #ede4dc;
   color: #121b21;
   min-height: 50px;
@@ -388,7 +388,7 @@ img {
   width: 100%;
 }
 
-.diana-box-name {
+.app-box-name {
   color: #199f4c;
 }
 
