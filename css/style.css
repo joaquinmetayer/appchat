@@ -42,7 +42,7 @@ img {
 .contact-container {
   background-color: #121b21;
   color: #f9f9f9;
-  padding: 4em 1em 4em 1em;
+  padding: 3.75em 1em 4em 1em;
   flex-direction: column;
   text-align: center;
 }
@@ -67,7 +67,7 @@ img {
 
 .contact-title {
   font-weight: bold;
-  font-size: 2.25em;
+  font-size: 2em;
 }
 
 .contact-description {
@@ -95,7 +95,7 @@ img {
 
 @media screen and (max-width: 800px) {
   .contact-container-form {
-    width: 22em;
+    width: 20em;
   }
 }
 .footer {
@@ -123,7 +123,7 @@ img {
   gap: 1em;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  min-height: 85vh;
+  min-height: 80vh;
   background-image: url("../img/24.jpg");
   background-position: center;
   background-size: cover;
@@ -184,6 +184,24 @@ img {
     display: flex;
     flex-direction: column-reverse;
   }
+  .hero-img-container {
+    width: 200px;
+    margin: 1em;
+  }
+  .hero-img {
+    width: 198px;
+    z-index: 2;
+    border-radius: 31px;
+    box-shadow: 10px 10px 150px #000;
+    overflow: hidden;
+  }
+  .video01 {
+    width: 195px;
+    height: 375px;
+  }
+  .hero-title {
+    font-size: 2.5em;
+  }
 }
 .topnav,
 .topnavresponsive {
@@ -203,7 +221,7 @@ img {
   font-weight: bold;
 }
 
-.nav-app-title {
+.nav-App-title {
   font-size: 1.75em;
 }
 
@@ -248,7 +266,7 @@ img {
   align-items: center;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .links-nav a, .dropdown .dropbtn {
     display: none;
     flex-direction: column;
@@ -362,7 +380,7 @@ img {
   font-size: 1.1em;
 }
 
-.cajero {
+.emprendedor {
   font-size: 1.45em;
   background-color: #62778b;
   color: #fff;
@@ -372,7 +390,7 @@ img {
   width: 100%;
 }
 
-.app-box {
+.App-box {
   background-color: #ede4dc;
   color: #121b21;
   min-height: 50px;
@@ -388,7 +406,7 @@ img {
   width: 100%;
 }
 
-.app-box-name {
+.App-box-name {
   color: #199f4c;
 }
 
@@ -442,7 +460,7 @@ img {
 .que-hacemos-container {
   background-color: #f9f9f9;
   color: #121b21;
-  padding: 2em 2em 0 2em;
+  padding: 2em;
   flex-direction: column;
 }
 
@@ -522,8 +540,7 @@ img {
 }
 .price-container {
   color: #f9f9f9;
-  padding: 4em 0em 4em 0em;
-  margin: 0;
+  padding: 3.5em 1em 4em 1em !important;
   flex-direction: column;
   text-align: center;
   background-image: url("../img/24.jpg");
@@ -564,7 +581,7 @@ img {
   border: 3px solid #22d365;
   background-color: #22d365;
   color: #fff;
-  padding: 1em 0.75em 1em 0.75em;
+  padding: 1em 0.5em 1em 0.5em;
   border-radius: 8px;
   cursor: pointer;
   border-radius: 8px;
@@ -573,7 +590,7 @@ img {
 }
 
 .price-currency-container {
-  font-size: 3em;
+  font-size: 2.5em;
   padding-bottom: 0.5em;
   margin-bottom: 0.1em;
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.213);
@@ -589,22 +606,157 @@ img {
 }
 
 .price-points {
-  font-size: 1.25em;
+  font-size: 1.1em;
   padding: 0 0 0.5em 0;
 }
 
 .plan-title {
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: bold;
   width: 100%;
   padding-bottom: 0.5em;
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.213);
 }
 
-@media screen and (max-width: 700px) {
-  .price-container-small {
-    width: 22em;
-  }
+.cobromensual {
+  border-top: 0.5px solid rgba(0, 0, 0, 0.213);
+  padding-top: 1em;
 }
 
-/*# sourceMappingURL=style.css.map */
+@media screen and (max-width: 700px) {
+  .price-container-small {
+    width: 20em;
+  }
+}
+.porypara-container {
+  background-color: #121b21;
+  color: #f9f9f9;
+  padding: 3em;
+  flex-direction: column;
+  text-align: center;
+}
+
+.porypara {
+  font-size: 2.35em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+.llegamos {
+  font-size: 19.5px;
+}
+
+body {
+  background-color: #121b21;
+  color: #f9f9f9;
+}
+
+.pagoexit-container {
+  padding: 1em;
+  flex-direction: column;
+  text-align: center;
+  min-height: 95vh;
+}
+
+.pagoexit-container-form {
+  margin: 0 1em 0 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #ede4dc;
+  color: #121b21;
+  gap: 1em;
+  font-size: 1em;
+  width: 30em;
+}
+
+.pagoexit-container-form a {
+  text-decoration: none;
+}
+
+.pagoexit-title {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.pagoexit-description {
+  padding: 1em 1em 1.5em 1em;
+  font-size: 1.25em;
+  text-align: center;
+  color: #fff;
+}
+
+.enviar-wspp {
+  font-weight: bold;
+  border: 3px solid #22d365;
+  background-color: #22d365;
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1.5em;
+}
+
+.requisitos {
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 0.5em 0 0.5em;
+}
+
+.ahora {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.vuelve {
+  color: #ede4dc;
+  padding: 2em;
+}
+
+@media screen and (max-width: 800px) {
+  .pagoexit-container-form {
+    width: 20em;
+  }
+}
+.plataforma-container {
+  background-color: #121b21;
+  color: #f9f9f9;
+  padding: 3em;
+  flex-direction: column;
+  text-align: center;
+}
+
+.plataforma-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+.prontomas {
+  font-size: 18px;
+  padding-top: 1em;
+  color: rgba(249, 249, 249, 0.6823529412);
+}
+
+.logo-plataforma {
+  height: 2em;
+  width: auto;
+}
+
+.plataforma-name {
+  text-decoration: none;
+  font-weight: bold;
+  color: #f9f9f9;
+}
+
+.plataforma-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/*# sourceMAppingURL=style.css.map */

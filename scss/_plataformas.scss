@@ -1,0 +1,31 @@
+.plataforma-container{
+    background-color: #121b21;
+    color: #f9f9f9;
+    padding: 3em;
+    flex-direction: column;
+    text-align: center;
+}
+.plataforma-title{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+.prontomas{
+    font-size: 18px;
+    padding-top: 1em;
+    color: #f9f9f9ae;
+}
+.logo-plataforma{
+    height: 2em;
+    width: auto;
+}
+.plataforma-name{
+    text-decoration: none;
+    font-weight: bold;
+    color: #f9f9f9;
+}
+.plataforma-col{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

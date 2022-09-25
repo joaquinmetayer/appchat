@@ -1,7 +1,6 @@
 .price-container{
     color: #f9f9f9;
-    padding: 4em 0em 4em 0em;
-    margin: 0;
+    padding: 3.5em 1em 4em 1em !important;
     flex-direction: column;
     text-align: center;
     background-image: url("../img/24.jpg");
@@ -38,7 +37,7 @@
     border: 3px solid  #22d365 ;
     background-color: #22d365;
     color: #fff;
-    padding: 1em 0.75em 1em 0.75em;
+    padding: 1em 0.5em 1em 0.5em;
     border-radius: 8px;
     cursor: pointer;
     border-radius: 8px;
@@ -46,7 +45,7 @@
     text-decoration: none;
 }
 .price-currency-container{
-    font-size: 3em;
+    font-size: 2.5em;
     padding-bottom: 0.5em;
     margin-bottom: 0.1em;
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.213);
@@ -59,18 +58,22 @@
     color: #121b21ba;
 }
 .price-points{
-    font-size: 1.25em;
+    font-size: 1.1em;
     padding: 0 0 0.5em 0;
 }
 .plan-title{
-    font-size: 2em;
+    font-size: 1.75em;
     font-weight: bold;
     width: 100%;
     padding-bottom: 0.5em;
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.213);
 }
+.cobromensual{
+    border-top: 0.5px solid rgba(0, 0, 0, 0.213);
+    padding-top: 1em;
+}
 @media screen and (max-width: 700px) {
     .price-container-small{
-        width: 22em;
+        width: 20em;
     }
 }

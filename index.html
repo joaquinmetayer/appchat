@@ -15,16 +15,17 @@
 <body>
 
     <!-- nav -->
-    <div class="topnav display-flex-between" id="myTopnav">
-        <a href="#" class="nav-app-title">
+    <div class="topnav" id="myTopnav">
+        <a href="#" class="nav-App-title">
             <span class="nav-name-black">App</span><span class="dot-name">.</span><span class="nav-name-green">chat</span>
         </a>
         <div>
             <div class="links-nav">
                 <a class="nav-link" href="#quehacemos">Qué hacemos</a>
                 <a class="nav-link" href="#comofunciona">Cómo funciona</a>
+                <a class="nav-link" href="#plataformas">Plataformas</a>
                 <a class="nav-link" href="#precio">Precio</a>
-                <a class="nav-link" id="nav-automatiza" href="#automatiza">Automatizá</a>
+                <a class="nav-link" id="nav-automatiza" href="#precio">Automatizá</a>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img class="icon-png" src="./img/menu.png"></a>
         </div>
@@ -36,7 +37,7 @@
             <div class="hero-title">
                 <span>Automatiza y gestioná con <span class="hero-dianna">App</span> mediante WhatsApp</span>
             </div>
-            <a class="automatiza" href="#automatiza">Automatizá</a>
+            <a class="automatiza" href="#precio">Automatizá</a>
         </div>
         <div class="hero-img-container display-flex-center">
                 <img class="hero-img" src="./img/portrait_black.png">
@@ -52,20 +53,26 @@
             <span>Que hacemos</span>
         </div>
         <div class="que-hacemos-description">
-            <p>Automatizamos parte de tu trabajo haciendolo simple, la cual podras dar ordenes como dueño de negocio a App para que haga todas tus tareas sin salir de la aplicación de WhatsApp.</p>
+            <p>Automatizamos parte de tu trabajo haciendolo simple, la cual podras dar ordenes como emprendedor de tu plataforma de stockiento favorita a App para que haga todas tus tareas sin salir de la aplicación de WhatsApp.</p>
             <p class="veamos-accion">Ahora veamosla en acción, dale al play!</p>
-            <a onclick="playVid()" type="button"><img class="btn-play" src="./img/play-button.png"></a>
+            <a onclick="playVid()" type="button" ><img class="btn-play" src="./img/play-button.png"></a>
         </div>
         <div class="que-hacemos-accion">
             <div class="qh-card display-flex-center">
-                <p>Dueño de negocio <span class="green">solicitando</span></p>
+                <p>Emprendedor <span class="green">solicitando</span></p>
                 <video id="myVideo1" src="./video/Screen Recording 2022-09-13 at 23.53.48.mov" muted></video>
             </div>
             <div class="qh-card display-flex-center">
                 <p>App <span class="green">ejecutando</span></p>
-                <video id="myVideo2" src="./video/Screen Recording 2022-09-13 at 23.53.49.mov" muted></video>
+                <video id="myVideo2" src="./video/Screen Recording 2022-09-13 at 23.53.48.mov" muted></video>
             </div>
         </div>
+    </div>
+
+    <!-- por y para emprendedors -->
+    <div class="porypara-container">
+        <p class="porypara">Por y para emprendedoress.</p>
+        <p class="llegamos">Llegamos a hacerte el proceso simple.</p>
     </div>
 
     <!-- como funciona -->
@@ -74,51 +81,66 @@
         <span class="comofunciona-description">Veamos como lo hace en un cuadro!</span>
         <div class="cuadro-container display-flex-center">
             <div class="row03">
-                <span class="cajero">Dueño envía comando:</span>
+                <span class="emprendedor">Emprendedor envía comando:</span>
             </div>
 
             <!-- bic screen cols -->
             <div class="row02">
-                <span class="box01">Cargar mercaderia</span>
-                <span class="box01">Descargar mercaderia</span>
-                <span class="box01">Crear nuevo stock</span>
-                <span class="box01">Crear nuevo producto</span>
+                <span class="box01">Cargar stock</span>
+                <span class="box01">Descargar stock</span>
+                <span class="box01">Crear nuevo Empador</span>
+                <span class="box01">Crear nuevo agente</span>
             </div>
             <div class="row02">
-                <span class="box04">C + Tipo + Precio</span>
-                <span class="box04">D + Tipo + Precio</span>
-                <span class="box04">CS + Tipo + Precio</span>
-                <span class="box04">CP + Tipo + Precio</span>
+                <span class="box04">C19 + 01 + Emp + Monto</span>
+                <span class="box04">D19 + 01 + Emp + Monto</span>
+                <span class="box04">NJ19 + 01 + NuevoUs + NContr</span>
+                <span class="box04">NA19 + 01 + NuevoAg + NContr</span>
             </div>
 
             <!-- small screen cols -->
             <div class="rowsmall">
-                <span class="box01">Cargar mercaderia</span>
-                <span class="box04">C + Tipo + Precio</span>
-                <span class="box01">Descargar mercaderia</span>
-                <span class="box04">D + Tipo + Precio</span>
-                <span class="box01">Crear nuevo stock</span>
-                <span class="box04">CS + Tipo + Precio</span>
-                <span class="box01">Crear nuevo producto</span>
-                <span class="box04">CP + Tipo + Precio</span>
+                <span class="box01">Cargar stock</span>
+                <span class="box04">C19 + 01 + Emp + Monto</span>
+                <span class="box01">Descargar stock</span>
+                <span class="box04">D19 + 01 + Emp + Monto</span>
+                <span class="box01">Crear nuevo Empador</span>
+                <span class="box04">NJ19 + 01 + NuevoUs + NContr</span>
+                <span class="box01">Crear nuevo agente</span>
+                <span class="box04">NA19 + 01 + NuevoAg + NContr</span>
             </div>
 
             <!-- end small screen cols -->
             <div class="row03">
-                <div class="app-box">
-                    <p><span class="app-box-name">App</span> recibe y procesa</p>
+                <div class="App-box">
+                    <p><span class="App-box-name">App</span> recibe y procesa</p>
                 </div>
             </div>
             <div class="row03">
                 <div class="plataforma-box">
-                    <p>Ejecuta comando dentro de plataforma de negocio</p>
+                    <p>Ejecuta comando dentro de plataforma de stockiento</p>
                 </div>
             </div>
             <div class="row03">
-                <span class="notifica">Notifica que el comando se ha completado</span>
+                <span class="notifica">Notifica emprendedor que el comando se ha completado</span>
             </div>
 
         </div>
+
+    </div>
+
+    <!-- plataformas -->
+    <div class="plataforma-container" id="plataformas">
+        <p class="plataforma-title">Plataformas compatibles</p>
+        <div class="display-flex-center">
+            <div class="plataforma-col">
+                <a href="https://Empaenvivo.com/" target="_blank">
+                    <img class="logo-plataforma" src="./img/jugaenvivo.png"/>
+                </a>
+                <a href="https://Empaenvivo.com/" target="_blank" class="plataforma-name">EmpaEnVivo</a>
+            </div>
+        </div>
+        <p class="prontomas">Pronto mas plataformas!</p>  
 
     </div>
 
@@ -132,21 +154,20 @@
                 <span class="price-black">$ 3.000 </span><span class="price-gray">/mes</span>
             </div>
             <div class="price-points">
-                <p>Cargar mercaderia</p>
-                <p>Descargar mercaderia</p>
-                <p>Crear nuevo stock</p>
-                <p>Crear nuevo producto</p>
+                <p>Cargar stock</p>
+                <p>Descargar stock</p>
+                <p>Cargar nuevo usuario</p>
+                <p>Cargar nuego agente</p>
             </div>
-
-            <a class="comprar" target="_blank" href="https://wa.me/5493518024289?text=Hola App! Quiero automatizar.. me brindas mas información del pago?">Comprar</a>
+            <span class="price-gray cobromensual">Cobro mensual mediante MercadoPago</span>
+            <a class="comprar" href="https://www.mercadopago.com.ar">Subscribirse</a>
+            <span class="price-gray">Realizado el pago serás redireccionado a las instrucciones para continuar con el servicio</span>
         </div>
-            
-        
     </div>
     </div>
 
     <!-- contacto -->
-    <div class="contact-container display-flex-center" id="automatiza">
+    <div class="contact-container display-flex-center" >
         <p class="contact-title">Contacta para automatizar</p>
         <p class="contact-description">A medida de lo que necesitas.</p>
         <div class="contact-container-form">
@@ -160,7 +181,7 @@
         <div>
             <span class="footer-name-black">App</span><span class="dot-name">.</span><span class="footer-name-green">chat</span>
         </div>
-        <a href="https://www.instagram.com/chat.app" target="_blank">
+        <a href="https://www.instagram.com/chat.App" target="_blank">
             <img src="./img/instagram.png">
         </a>
     </div>

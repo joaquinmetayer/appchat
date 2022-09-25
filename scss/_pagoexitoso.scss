@@ -1,0 +1,66 @@
+body{
+    background-color: #121b21;
+    color: #f9f9f9;
+}
+.pagoexit-container{
+    padding: 1em;
+    flex-direction: column;
+    text-align: center;
+    min-height: 95vh;
+}
+.pagoexit-container-form{
+    margin: 0 1em 0 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 8px;
+    background-color:  #ede4dc;
+    color: #121b21;
+    gap: 1em;
+    font-size: 1em;
+    width: 30em;
+}
+.pagoexit-container-form a{
+    text-decoration: none;
+}
+.pagoexit-title{
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.pagoexit-description{
+    padding: 1em 1em 1.5em 1em;
+    font-size: 1.25em;
+    text-align: center;
+    color: #fff;
+}
+.enviar-wspp{
+    font-weight: bold;
+    border: 3px solid  #22d365 ;
+    background-color: #22d365;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1.5em;
+}
+.requisitos{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 0.5em 0 0.5em;
+}
+.ahora{
+    font-size: 22px;
+    font-weight: bold;
+}
+.vuelve{
+    color: #ede4dc;
+    padding: 2em;
+}
+@media screen and (max-width: 800px) {
+    .pagoexit-container-form{
+        width: 20em;
+    }
+}
